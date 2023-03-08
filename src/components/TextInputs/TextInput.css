@@ -1,0 +1,27 @@
+.text-input{
+    margin: 24px 0;
+}
+
+.text-input label {
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #212121;
+}
+
+.text-input input {
+    background-color: #FFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    mix-blend-mode: normal;
+    width: 100%;
+    border: none;
+    font-size: 24px;
+    padding: 24px;
+    box-sizing: border-box;
+}
